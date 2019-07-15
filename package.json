@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-sf-react",
+  "version": "1.2.1",
+  "description": "ESLint configuration used by SF",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/babyisun/eslint-config-sf-react"
+  },
+  "keywords": [
+    "eslint",
+    "eslint config",
+    "configuration",
+    "react eslint",
+    "sf eslint"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=5.x"
+  },
+  "dependencies": {
+    "babel-eslint": ">=9.x",
+    "eslint-config-sf-js":"latest",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-config-prettier": "4.x",
+    "eslint-plugin-prettier": "3.x"
+  }
+}
