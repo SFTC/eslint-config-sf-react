@@ -57,6 +57,9 @@ module.exports = {
   },
 
   rules: {
+    // Allow unused vars when you are debuging, but can't build.
+    'no-unused-vars': process.env.NODE_ENV === 'production' ? 2 : 1,
+
     // https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules
     'react/forbid-foreign-prop-types': ['warn', { allowInPropTypes: true }],
     'react/jsx-pascal-case': [
